@@ -1,0 +1,1176 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 3550 2150 0    50   Input ~ 0
+X_STEP
+Text GLabel 3550 2250 0    50   Input ~ 0
+X_DIR
+Text GLabel 3550 2050 0    50   Input ~ 0
+X_EN
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CDD225C
+P 4750 2150
+AR Path="/5CDD225C" Ref="J?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD225C" Ref="J3"  Part="1" 
+AR Path="/5CDED0D7/5CDD225C" Ref="J?"  Part="1" 
+F 0 "J3" H 4830 2142 50  0000 L CNN
+F 1 "X_MOT" H 4830 2051 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4750 2150 50  0001 C CNN
+F 3 "~" H 4750 2150 50  0001 C CNN
+	1    4750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2050 4550 2050
+Wire Wire Line
+	4450 2150 4550 2150
+Wire Wire Line
+	4450 2250 4550 2250
+Wire Wire Line
+	4450 2350 4550 2350
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD2275
+P 3300 2650
+AR Path="/5CDD2275" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2275" Ref="JP1"  Part="1" 
+AR Path="/5CDED0D7/5CDD2275" Ref="JP?"  Part="1" 
+F 0 "JP1" H 3050 2700 50  0000 C CNN
+F 1 "SJ" H 3500 2700 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3300 2650 50  0001 C CNN
+F 3 "~" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD227C
+P 3300 2550
+AR Path="/5CDD227C" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD227C" Ref="JP2"  Part="1" 
+AR Path="/5CDED0D7/5CDD227C" Ref="JP?"  Part="1" 
+F 0 "JP2" H 3050 2600 50  0000 C CNN
+F 1 "SJ" H 3500 2600 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3300 2550 50  0001 C CNN
+F 3 "~" H 3300 2550 50  0001 C CNN
+	1    3300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD2283
+P 3300 2450
+AR Path="/5CDD2283" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2283" Ref="JP3"  Part="1" 
+AR Path="/5CDED0D7/5CDD2283" Ref="JP?"  Part="1" 
+F 0 "JP3" H 3050 2500 50  0000 C CNN
+F 1 "SJ" H 3500 2500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3300 2450 50  0001 C CNN
+F 3 "~" H 3300 2450 50  0001 C CNN
+	1    3300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2450 3550 2450
+Wire Wire Line
+	3550 2550 3450 2550
+Wire Wire Line
+	3450 2650 3550 2650
+Wire Wire Line
+	3150 2450 2850 2450
+Wire Wire Line
+	2850 2450 2850 2350
+Wire Wire Line
+	2850 2450 2850 2550
+Wire Wire Line
+	2850 2650 3150 2650
+Connection ~ 2850 2450
+Wire Wire Line
+	3150 2550 2850 2550
+Connection ~ 2850 2550
+Wire Wire Line
+	2850 2550 2850 2650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD2295
+P 2850 2350
+AR Path="/5CDD2295" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2295" Ref="#PWR0105"  Part="1" 
+AR Path="/5CDED0D7/5CDD2295" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0105" H 2850 2200 50  0001 C CNN
+F 1 "+3.3V" H 2865 2523 50  0000 C CNN
+F 2 "" H 2850 2350 50  0001 C CNN
+F 3 "" H 2850 2350 50  0001 C CNN
+	1    2850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1850 3450 1850
+Wire Wire Line
+	3450 1850 3450 1750
+Wire Wire Line
+	3450 1750 3550 1750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD229E
+P 3950 1350
+AR Path="/5CDD229E" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD229E" Ref="#PWR0106"  Part="1" 
+AR Path="/5CDED0D7/5CDD229E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 3950 1200 50  0001 C CNN
+F 1 "+3.3V" H 3965 1523 50  0000 C CNN
+F 2 "" H 3950 1350 50  0001 C CNN
+F 3 "" H 3950 1350 50  0001 C CNN
+	1    3950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1450 3950 1350
+Wire Wire Line
+	4150 1350 4150 1450
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD22A6
+P 4150 1350
+AR Path="/5CDD22A6" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22A6" Ref="#PWR0107"  Part="1" 
+AR Path="/5CDED0D7/5CDD22A6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0107" H 4150 1200 50  0001 C CNN
+F 1 "+12V" H 4165 1523 50  0000 C CNN
+F 2 "" H 4150 1350 50  0001 C CNN
+F 3 "" H 4150 1350 50  0001 C CNN
+	1    4150 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 2150 0    50   Input ~ 0
+Y_STEP
+Text GLabel 7100 2250 0    50   Input ~ 0
+Y_DIR
+Text GLabel 7100 2050 0    50   Input ~ 0
+Y_EN
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD22CF
+P 6850 2650
+AR Path="/5CDD22CF" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22CF" Ref="JP4"  Part="1" 
+AR Path="/5CDED0D7/5CDD22CF" Ref="JP?"  Part="1" 
+F 0 "JP4" H 6600 2700 50  0000 C CNN
+F 1 "SJ" H 7050 2700 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6850 2650 50  0001 C CNN
+F 3 "~" H 6850 2650 50  0001 C CNN
+	1    6850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD22D6
+P 6850 2550
+AR Path="/5CDD22D6" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22D6" Ref="JP5"  Part="1" 
+AR Path="/5CDED0D7/5CDD22D6" Ref="JP?"  Part="1" 
+F 0 "JP5" H 6600 2600 50  0000 C CNN
+F 1 "SJ" H 7050 2600 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6850 2550 50  0001 C CNN
+F 3 "~" H 6850 2550 50  0001 C CNN
+	1    6850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD22DD
+P 6850 2450
+AR Path="/5CDD22DD" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22DD" Ref="JP6"  Part="1" 
+AR Path="/5CDED0D7/5CDD22DD" Ref="JP?"  Part="1" 
+F 0 "JP6" H 6600 2500 50  0000 C CNN
+F 1 "SJ" H 7050 2500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6850 2450 50  0001 C CNN
+F 3 "~" H 6850 2450 50  0001 C CNN
+	1    6850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2450 7100 2450
+Wire Wire Line
+	7100 2550 7000 2550
+Wire Wire Line
+	7000 2650 7100 2650
+Wire Wire Line
+	6700 2450 6400 2450
+Wire Wire Line
+	6400 2450 6400 2350
+Wire Wire Line
+	6400 2450 6400 2550
+Wire Wire Line
+	6400 2650 6700 2650
+Connection ~ 6400 2450
+Wire Wire Line
+	6700 2550 6400 2550
+Connection ~ 6400 2550
+Wire Wire Line
+	6400 2550 6400 2650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD22EF
+P 6400 2350
+AR Path="/5CDD22EF" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22EF" Ref="#PWR0110"  Part="1" 
+AR Path="/5CDED0D7/5CDD22EF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0110" H 6400 2200 50  0001 C CNN
+F 1 "+3.3V" H 6415 2523 50  0000 C CNN
+F 2 "" H 6400 2350 50  0001 C CNN
+F 3 "" H 6400 2350 50  0001 C CNN
+	1    6400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1850 7000 1850
+Wire Wire Line
+	7000 1850 7000 1750
+Wire Wire Line
+	7000 1750 7100 1750
+$Comp
+L Device:CP C?
+U 1 1 5CDD23B7
+P 900 7100
+AR Path="/5CDD23B7" Ref="C?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23B7" Ref="C1"  Part="1" 
+AR Path="/5CDED0D7/5CDD23B7" Ref="C?"  Part="1" 
+F 0 "C1" H 1018 7146 50  0000 L CNN
+F 1 "100uF" H 1018 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 938 6950 50  0001 C CNN
+F 3 "~" H 900 7100 50  0001 C CNN
+F 4 "C176666" H 900 7100 50  0001 C CNN "JLC"
+	1    900  7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD23BE
+P 900 6850
+AR Path="/5CDD23BE" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23BE" Ref="#PWR0123"  Part="1" 
+AR Path="/5CDED0D7/5CDD23BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0123" H 900 6700 50  0001 C CNN
+F 1 "+12V" H 915 7023 50  0000 C CNN
+F 2 "" H 900 6850 50  0001 C CNN
+F 3 "" H 900 6850 50  0001 C CNN
+	1    900  6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6850 900  6950
+Wire Wire Line
+	900  7250 900  7350
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD23C6
+P 900 7350
+AR Path="/5CDD23C6" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23C6" Ref="#PWR0124"  Part="1" 
+AR Path="/5CDED0D7/5CDD23C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0124" H 900 7100 50  0001 C CNN
+F 1 "GND" H 905 7177 50  0000 C CNN
+F 2 "" H 900 7350 50  0001 C CNN
+F 3 "" H 900 7350 50  0001 C CNN
+	1    900  7350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD23D3
+P 1400 6850
+AR Path="/5CDD23D3" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23D3" Ref="#PWR0125"  Part="1" 
+AR Path="/5CDED0D7/5CDD23D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0125" H 1400 6700 50  0001 C CNN
+F 1 "+12V" H 1415 7023 50  0000 C CNN
+F 2 "" H 1400 6850 50  0001 C CNN
+F 3 "" H 1400 6850 50  0001 C CNN
+	1    1400 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6850 1400 6950
+Wire Wire Line
+	1400 7250 1400 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD23DB
+P 1400 7350
+AR Path="/5CDD23DB" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23DB" Ref="#PWR0126"  Part="1" 
+AR Path="/5CDED0D7/5CDD23DB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0126" H 1400 7100 50  0001 C CNN
+F 1 "GND" H 1405 7177 50  0000 C CNN
+F 2 "" H 1400 7350 50  0001 C CNN
+F 3 "" H 1400 7350 50  0001 C CNN
+	1    1400 7350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD23E8
+P 1900 6850
+AR Path="/5CDD23E8" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23E8" Ref="#PWR0127"  Part="1" 
+AR Path="/5CDED0D7/5CDD23E8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0127" H 1900 6700 50  0001 C CNN
+F 1 "+12V" H 1915 7023 50  0000 C CNN
+F 2 "" H 1900 6850 50  0001 C CNN
+F 3 "" H 1900 6850 50  0001 C CNN
+	1    1900 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6850 1900 6950
+Wire Wire Line
+	1900 7250 1900 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD23F0
+P 1900 7350
+AR Path="/5CDD23F0" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23F0" Ref="#PWR0128"  Part="1" 
+AR Path="/5CDED0D7/5CDD23F0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0128" H 1900 7100 50  0001 C CNN
+F 1 "GND" H 1905 7177 50  0000 C CNN
+F 2 "" H 1900 7350 50  0001 C CNN
+F 3 "" H 1900 7350 50  0001 C CNN
+	1    1900 7350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD23FD
+P 2400 6850
+AR Path="/5CDD23FD" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD23FD" Ref="#PWR0129"  Part="1" 
+AR Path="/5CDED0D7/5CDD23FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0129" H 2400 6700 50  0001 C CNN
+F 1 "+12V" H 2415 7023 50  0000 C CNN
+F 2 "" H 2400 6850 50  0001 C CNN
+F 3 "" H 2400 6850 50  0001 C CNN
+	1    2400 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6850 2400 6950
+Wire Wire Line
+	2400 7250 2400 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD2405
+P 2400 7350
+AR Path="/5CDD2405" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2405" Ref="#PWR0130"  Part="1" 
+AR Path="/5CDED0D7/5CDD2405" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0130" H 2400 7100 50  0001 C CNN
+F 1 "GND" H 2405 7177 50  0000 C CNN
+F 2 "" H 2400 7350 50  0001 C CNN
+F 3 "" H 2400 7350 50  0001 C CNN
+	1    2400 7350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D0C25F9
+P 2900 6850
+AR Path="/5D0C25F9" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5D0C25F9" Ref="#PWR0172"  Part="1" 
+AR Path="/5CDED0D7/5D0C25F9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0172" H 2900 6700 50  0001 C CNN
+F 1 "+12V" H 2915 7023 50  0000 C CNN
+F 2 "" H 2900 6850 50  0001 C CNN
+F 3 "" H 2900 6850 50  0001 C CNN
+	1    2900 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6850 2900 6950
+Wire Wire Line
+	2900 7250 2900 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5D0C2601
+P 2900 7350
+AR Path="/5D0C2601" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5D0C2601" Ref="#PWR0173"  Part="1" 
+AR Path="/5CDED0D7/5D0C2601" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0173" H 2900 7100 50  0001 C CNN
+F 1 "GND" H 2905 7177 50  0000 C CNN
+F 2 "" H 2900 7350 50  0001 C CNN
+F 3 "" H 2900 7350 50  0001 C CNN
+	1    2900 7350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E09046D
+P 1400 7100
+AR Path="/5E09046D" Ref="C?"  Part="1" 
+AR Path="/5CD7F8DE/5E09046D" Ref="C2"  Part="1" 
+AR Path="/5CDED0D7/5E09046D" Ref="C?"  Part="1" 
+F 0 "C2" H 1518 7146 50  0000 L CNN
+F 1 "100uF" H 1518 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1438 6950 50  0001 C CNN
+F 3 "~" H 1400 7100 50  0001 C CNN
+F 4 "C176666" H 1400 7100 50  0001 C CNN "JLC"
+	1    1400 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E09095E
+P 1900 7100
+AR Path="/5E09095E" Ref="C?"  Part="1" 
+AR Path="/5CD7F8DE/5E09095E" Ref="C3"  Part="1" 
+AR Path="/5CDED0D7/5E09095E" Ref="C?"  Part="1" 
+F 0 "C3" H 2018 7146 50  0000 L CNN
+F 1 "100uF" H 2018 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1938 6950 50  0001 C CNN
+F 3 "~" H 1900 7100 50  0001 C CNN
+F 4 "C176666" H 1900 7100 50  0001 C CNN "JLC"
+	1    1900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E090E59
+P 2400 7100
+AR Path="/5E090E59" Ref="C?"  Part="1" 
+AR Path="/5CD7F8DE/5E090E59" Ref="C4"  Part="1" 
+AR Path="/5CDED0D7/5E090E59" Ref="C?"  Part="1" 
+F 0 "C4" H 2518 7146 50  0000 L CNN
+F 1 "100uF" H 2518 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2438 6950 50  0001 C CNN
+F 3 "~" H 2400 7100 50  0001 C CNN
+F 4 "C176666" H 2400 7100 50  0001 C CNN "JLC"
+	1    2400 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E091594
+P 2900 7100
+AR Path="/5E091594" Ref="C?"  Part="1" 
+AR Path="/5CD7F8DE/5E091594" Ref="C5"  Part="1" 
+AR Path="/5CDED0D7/5E091594" Ref="C?"  Part="1" 
+F 0 "C5" H 3018 7146 50  0000 L CNN
+F 1 "100uF" H 3018 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2938 6950 50  0001 C CNN
+F 3 "~" H 2900 7100 50  0001 C CNN
+F 4 "C176666" H 2900 7100 50  0001 C CNN "JLC"
+	1    2900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A1
+U 1 1 5F0397DA
+P 3950 2150
+F 0 "A1" H 4300 2900 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 4650 2800 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 4225 1400 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 4050 1850 50  0001 C CNN
+	1    3950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD226D
+P 4150 3050
+AR Path="/5CDD226D" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD226D" Ref="#PWR0104"  Part="1" 
+AR Path="/5CDED0D7/5CDD226D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0104" H 4150 2800 50  0001 C CNN
+F 1 "GND" H 4155 2877 50  0000 C CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3050 4150 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD2267
+P 3950 3050
+AR Path="/5CDD2267" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2267" Ref="#PWR0103"  Part="1" 
+AR Path="/5CDED0D7/5CDD2267" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0103" H 3950 2800 50  0001 C CNN
+F 1 "GND" H 3955 2877 50  0000 C CNN
+F 2 "" H 3950 3050 50  0001 C CNN
+F 3 "" H 3950 3050 50  0001 C CNN
+	1    3950 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3050 3950 2950
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A2
+U 1 1 5F052EEC
+P 7500 2150
+F 0 "A2" H 7850 2900 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 8200 2800 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 7775 1400 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 7600 1850 50  0001 C CNN
+	1    7500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD22F8
+P 7500 1350
+AR Path="/5CDD22F8" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22F8" Ref="#PWR0111"  Part="1" 
+AR Path="/5CDED0D7/5CDD22F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0111" H 7500 1200 50  0001 C CNN
+F 1 "+3.3V" H 7515 1523 50  0000 C CNN
+F 2 "" H 7500 1350 50  0001 C CNN
+F 3 "" H 7500 1350 50  0001 C CNN
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1450 7500 1350
+Wire Wire Line
+	7700 1350 7700 1450
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD2300
+P 7700 1350
+AR Path="/5CDD2300" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2300" Ref="#PWR0112"  Part="1" 
+AR Path="/5CDED0D7/5CDD2300" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0112" H 7700 1200 50  0001 C CNN
+F 1 "+12V" H 7715 1523 50  0000 C CNN
+F 2 "" H 7700 1350 50  0001 C CNN
+F 3 "" H 7700 1350 50  0001 C CNN
+	1    7700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD22C1
+P 7500 3050
+AR Path="/5CDD22C1" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22C1" Ref="#PWR0108"  Part="1" 
+AR Path="/5CDED0D7/5CDD22C1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0108" H 7500 2800 50  0001 C CNN
+F 1 "GND" H 7505 2877 50  0000 C CNN
+F 2 "" H 7500 3050 50  0001 C CNN
+F 3 "" H 7500 3050 50  0001 C CNN
+	1    7500 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3050 7500 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD22C7
+P 7700 3050
+AR Path="/5CDD22C7" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22C7" Ref="#PWR0109"  Part="1" 
+AR Path="/5CDED0D7/5CDD22C7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0109" H 7700 2800 50  0001 C CNN
+F 1 "GND" H 7705 2877 50  0000 C CNN
+F 2 "" H 7700 3050 50  0001 C CNN
+F 3 "" H 7700 3050 50  0001 C CNN
+	1    7700 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3050 7700 2950
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CDD22B6
+P 8300 2150
+AR Path="/5CDD22B6" Ref="J?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD22B6" Ref="J4"  Part="1" 
+AR Path="/5CDED0D7/5CDD22B6" Ref="J?"  Part="1" 
+F 0 "J4" H 8380 2142 50  0000 L CNN
+F 1 "Y_MOT" H 8380 2051 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 8300 2150 50  0001 C CNN
+F 3 "~" H 8300 2150 50  0001 C CNN
+	1    8300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2050 8100 2050
+Wire Wire Line
+	8000 2150 8100 2150
+Wire Wire Line
+	8000 2250 8100 2250
+Wire Wire Line
+	8000 2350 8100 2350
+Text GLabel 2700 4700 0    50   Input ~ 0
+Z_STEP
+Text GLabel 2700 4800 0    50   Input ~ 0
+Z_DIR
+Text GLabel 2700 4600 0    50   Input ~ 0
+Z_EN
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CDD2310
+P 3900 4700
+AR Path="/5CDD2310" Ref="J?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2310" Ref="J5"  Part="1" 
+AR Path="/5CDED0D7/5CDD2310" Ref="J?"  Part="1" 
+F 0 "J5" H 3800 4400 50  0000 L CNN
+F 1 "Z_MOT_A" H 3750 4300 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3900 4700 50  0001 C CNN
+F 3 "~" H 3900 4700 50  0001 C CNN
+	1    3900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD231B
+P 3100 5600
+AR Path="/5CDD231B" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD231B" Ref="#PWR0113"  Part="1" 
+AR Path="/5CDED0D7/5CDD231B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0113" H 3100 5350 50  0001 C CNN
+F 1 "GND" H 3105 5427 50  0000 C CNN
+F 2 "" H 3100 5600 50  0001 C CNN
+F 3 "" H 3100 5600 50  0001 C CNN
+	1    3100 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD2321
+P 3300 5600
+AR Path="/5CDD2321" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2321" Ref="#PWR0114"  Part="1" 
+AR Path="/5CDED0D7/5CDD2321" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0114" H 3300 5350 50  0001 C CNN
+F 1 "GND" H 3305 5427 50  0000 C CNN
+F 2 "" H 3300 5600 50  0001 C CNN
+F 3 "" H 3300 5600 50  0001 C CNN
+	1    3300 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5600 3300 5500
+Wire Wire Line
+	3100 5600 3100 5500
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD2329
+P 2450 5200
+AR Path="/5CDD2329" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2329" Ref="JP7"  Part="1" 
+AR Path="/5CDED0D7/5CDD2329" Ref="JP?"  Part="1" 
+F 0 "JP7" H 2200 5250 50  0000 C CNN
+F 1 "SJ" H 2650 5250 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2450 5200 50  0001 C CNN
+F 3 "~" H 2450 5200 50  0001 C CNN
+	1    2450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD2330
+P 2450 5100
+AR Path="/5CDD2330" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2330" Ref="JP8"  Part="1" 
+AR Path="/5CDED0D7/5CDD2330" Ref="JP?"  Part="1" 
+F 0 "JP8" H 2200 5150 50  0000 C CNN
+F 1 "SJ" H 2650 5150 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2450 5100 50  0001 C CNN
+F 3 "~" H 2450 5100 50  0001 C CNN
+	1    2450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD2337
+P 2450 5000
+AR Path="/5CDD2337" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2337" Ref="JP9"  Part="1" 
+AR Path="/5CDED0D7/5CDD2337" Ref="JP?"  Part="1" 
+F 0 "JP9" H 2200 5050 50  0000 C CNN
+F 1 "SJ" H 2650 5050 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2450 5000 50  0001 C CNN
+F 3 "~" H 2450 5000 50  0001 C CNN
+	1    2450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5000 2700 5000
+Wire Wire Line
+	2700 5100 2600 5100
+Wire Wire Line
+	2600 5200 2700 5200
+Wire Wire Line
+	2300 5000 2000 5000
+Wire Wire Line
+	2000 5000 2000 4900
+Wire Wire Line
+	2000 5000 2000 5100
+Wire Wire Line
+	2000 5200 2300 5200
+Connection ~ 2000 5000
+Wire Wire Line
+	2300 5100 2000 5100
+Connection ~ 2000 5100
+Wire Wire Line
+	2000 5100 2000 5200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD2349
+P 2000 4900
+AR Path="/5CDD2349" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2349" Ref="#PWR0115"  Part="1" 
+AR Path="/5CDED0D7/5CDD2349" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0115" H 2000 4750 50  0001 C CNN
+F 1 "+3.3V" H 2015 5073 50  0000 C CNN
+F 2 "" H 2000 4900 50  0001 C CNN
+F 3 "" H 2000 4900 50  0001 C CNN
+	1    2000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4400 2600 4400
+Wire Wire Line
+	2600 4400 2600 4300
+Wire Wire Line
+	2600 4300 2700 4300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD2352
+P 3100 3900
+AR Path="/5CDD2352" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2352" Ref="#PWR0116"  Part="1" 
+AR Path="/5CDED0D7/5CDD2352" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0116" H 3100 3750 50  0001 C CNN
+F 1 "+3.3V" H 3115 4073 50  0000 C CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4000 3100 3900
+Wire Wire Line
+	3300 3900 3300 4000
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD235A
+P 3300 3900
+AR Path="/5CDD235A" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD235A" Ref="#PWR0117"  Part="1" 
+AR Path="/5CDED0D7/5CDD235A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 3300 3750 50  0001 C CNN
+F 1 "+12V" H 3315 4073 50  0000 C CNN
+F 2 "" H 3300 3900 50  0001 C CNN
+F 3 "" H 3300 3900 50  0001 C CNN
+	1    3300 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 4700 0    50   Input ~ 0
+E_STEP
+Text GLabel 8500 4800 0    50   Input ~ 0
+E_DIR
+Text GLabel 8500 4600 0    50   Input ~ 0
+E_EN
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CDD236A
+P 9700 4700
+AR Path="/5CDD236A" Ref="J?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD236A" Ref="J7"  Part="1" 
+AR Path="/5CDED0D7/5CDD236A" Ref="J?"  Part="1" 
+F 0 "J7" H 9780 4692 50  0000 L CNN
+F 1 "E_MOT" H 9780 4601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9700 4700 50  0001 C CNN
+F 3 "~" H 9700 4700 50  0001 C CNN
+	1    9700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD237F
+P 5250 5200
+AR Path="/5CDD237F" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD237F" Ref="JP10"  Part="1" 
+AR Path="/5CDED0D7/5CDD237F" Ref="JP?"  Part="1" 
+F 0 "JP10" H 5000 5250 50  0000 C CNN
+F 1 "SJ" H 5450 5250 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5250 5200 50  0001 C CNN
+F 3 "~" H 5250 5200 50  0001 C CNN
+	1    5250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD2386
+P 5250 5100
+AR Path="/5CDD2386" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD2386" Ref="JP11"  Part="1" 
+AR Path="/5CDED0D7/5CDD2386" Ref="JP?"  Part="1" 
+F 0 "JP11" H 5000 5150 50  0000 C CNN
+F 1 "SJ" H 5450 5150 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5250 5100 50  0001 C CNN
+F 3 "~" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5CDD238D
+P 5250 5000
+AR Path="/5CDD238D" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD238D" Ref="JP12"  Part="1" 
+AR Path="/5CDED0D7/5CDD238D" Ref="JP?"  Part="1" 
+F 0 "JP12" H 5000 5050 50  0000 C CNN
+F 1 "SJ" H 5450 5050 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5250 5000 50  0001 C CNN
+F 3 "~" H 5250 5000 50  0001 C CNN
+	1    5250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5000 5500 5000
+Wire Wire Line
+	5500 5100 5400 5100
+Wire Wire Line
+	5400 5200 5500 5200
+Wire Wire Line
+	5100 5000 4800 5000
+Wire Wire Line
+	4800 5000 4800 4900
+Wire Wire Line
+	4800 5000 4800 5100
+Wire Wire Line
+	4800 5200 5100 5200
+Connection ~ 4800 5000
+Wire Wire Line
+	5100 5100 4800 5100
+Connection ~ 4800 5100
+Wire Wire Line
+	4800 5100 4800 5200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDD239F
+P 4800 4900
+AR Path="/5CDD239F" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD239F" Ref="#PWR0120"  Part="1" 
+AR Path="/5CDED0D7/5CDD239F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 4800 4750 50  0001 C CNN
+F 1 "+3.3V" H 4815 5073 50  0000 C CNN
+F 2 "" H 4800 4900 50  0001 C CNN
+F 3 "" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4400 5400 4400
+Wire Wire Line
+	5400 4400 5400 4300
+Wire Wire Line
+	5400 4300 5500 4300
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CDD240B
+P 6700 4700
+AR Path="/5CDD240B" Ref="J?"  Part="1" 
+AR Path="/5CD7F8DE/5CDD240B" Ref="J6"  Part="1" 
+AR Path="/5CDED0D7/5CDD240B" Ref="J?"  Part="1" 
+F 0 "J6" H 6700 4400 50  0000 L CNN
+F 1 "Z_MOT_B" H 6600 4300 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 6700 4700 50  0001 C CNN
+F 3 "~" H 6700 4700 50  0001 C CNN
+	1    6700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4600 6500 4600
+Wire Wire Line
+	6400 4700 6500 4700
+Wire Wire Line
+	6400 4800 6500 4800
+Wire Wire Line
+	6400 4900 6500 4900
+Wire Wire Line
+	3600 4600 3700 4600
+Wire Wire Line
+	3600 4700 3700 4700
+Wire Wire Line
+	3600 4800 3700 4800
+Wire Wire Line
+	3600 4900 3700 4900
+Text GLabel 5500 4700 0    50   Input ~ 0
+Z_2_STEP
+Text GLabel 5500 4800 0    50   Input ~ 0
+Z_2_DIR
+Text GLabel 5500 4600 0    50   Input ~ 0
+Z_2_EN
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5D0982A4
+P 8250 5200
+AR Path="/5D0982A4" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5D0982A4" Ref="JP13"  Part="1" 
+AR Path="/5CDED0D7/5D0982A4" Ref="JP?"  Part="1" 
+F 0 "JP13" H 8000 5250 50  0000 C CNN
+F 1 "SJ" H 8450 5250 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8250 5200 50  0001 C CNN
+F 3 "~" H 8250 5200 50  0001 C CNN
+	1    8250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5D0982AB
+P 8250 5100
+AR Path="/5D0982AB" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5D0982AB" Ref="JP14"  Part="1" 
+AR Path="/5CDED0D7/5D0982AB" Ref="JP?"  Part="1" 
+F 0 "JP14" H 8000 5150 50  0000 C CNN
+F 1 "SJ" H 8450 5150 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8250 5100 50  0001 C CNN
+F 3 "~" H 8250 5100 50  0001 C CNN
+	1    8250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5D0982B2
+P 8250 5000
+AR Path="/5D0982B2" Ref="JP?"  Part="1" 
+AR Path="/5CD7F8DE/5D0982B2" Ref="JP15"  Part="1" 
+AR Path="/5CDED0D7/5D0982B2" Ref="JP?"  Part="1" 
+F 0 "JP15" H 8000 5050 50  0000 C CNN
+F 1 "SJ" H 8450 5050 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8250 5000 50  0001 C CNN
+F 3 "~" H 8250 5000 50  0001 C CNN
+	1    8250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5000 8500 5000
+Wire Wire Line
+	8500 5100 8400 5100
+Wire Wire Line
+	8400 5200 8500 5200
+Wire Wire Line
+	8100 5000 7800 5000
+Wire Wire Line
+	7800 5000 7800 4900
+Wire Wire Line
+	7800 5000 7800 5100
+Wire Wire Line
+	7800 5200 8100 5200
+Connection ~ 7800 5000
+Wire Wire Line
+	8100 5100 7800 5100
+Connection ~ 7800 5100
+Wire Wire Line
+	7800 5100 7800 5200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D0982C4
+P 7800 4900
+AR Path="/5D0982C4" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5D0982C4" Ref="#PWR014"  Part="1" 
+AR Path="/5CDED0D7/5D0982C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR014" H 7800 4750 50  0001 C CNN
+F 1 "+3.3V" H 7815 5073 50  0000 C CNN
+F 2 "" H 7800 4900 50  0001 C CNN
+F 3 "" H 7800 4900 50  0001 C CNN
+	1    7800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4400 8400 4400
+Wire Wire Line
+	8400 4400 8400 4300
+Wire Wire Line
+	8400 4300 8500 4300
+Wire Wire Line
+	9400 4600 9500 4600
+Wire Wire Line
+	9400 4700 9500 4700
+Wire Wire Line
+	9400 4800 9500 4800
+Wire Wire Line
+	9400 4900 9500 4900
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A3
+U 1 1 5F068A22
+P 3100 4700
+F 0 "A3" H 3450 5450 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 3800 5350 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 3375 3950 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 3200 4400 50  0001 C CNN
+	1    3100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F07DB3B
+P 5900 5600
+AR Path="/5F07DB3B" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F07DB3B" Ref="#PWR054"  Part="1" 
+AR Path="/5CDED0D7/5F07DB3B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR054" H 5900 5350 50  0001 C CNN
+F 1 "GND" H 5905 5427 50  0000 C CNN
+F 2 "" H 5900 5600 50  0001 C CNN
+F 3 "" H 5900 5600 50  0001 C CNN
+	1    5900 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F07DB41
+P 6100 5600
+AR Path="/5F07DB41" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F07DB41" Ref="#PWR055"  Part="1" 
+AR Path="/5CDED0D7/5F07DB41" Ref="#PWR?"  Part="1" 
+F 0 "#PWR055" H 6100 5350 50  0001 C CNN
+F 1 "GND" H 6105 5427 50  0000 C CNN
+F 2 "" H 6100 5600 50  0001 C CNN
+F 3 "" H 6100 5600 50  0001 C CNN
+	1    6100 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5600 6100 5500
+Wire Wire Line
+	5900 5600 5900 5500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F07DB49
+P 5900 3900
+AR Path="/5F07DB49" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F07DB49" Ref="#PWR012"  Part="1" 
+AR Path="/5CDED0D7/5F07DB49" Ref="#PWR?"  Part="1" 
+F 0 "#PWR012" H 5900 3750 50  0001 C CNN
+F 1 "+3.3V" H 5915 4073 50  0000 C CNN
+F 2 "" H 5900 3900 50  0001 C CNN
+F 3 "" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4000 5900 3900
+Wire Wire Line
+	6100 3900 6100 4000
+$Comp
+L power:+12V #PWR?
+U 1 1 5F07DB51
+P 6100 3900
+AR Path="/5F07DB51" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F07DB51" Ref="#PWR013"  Part="1" 
+AR Path="/5CDED0D7/5F07DB51" Ref="#PWR?"  Part="1" 
+F 0 "#PWR013" H 6100 3750 50  0001 C CNN
+F 1 "+12V" H 6115 4073 50  0000 C CNN
+F 2 "" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A4
+U 1 1 5F07DB57
+P 5900 4700
+F 0 "A4" H 6250 5450 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 6600 5350 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 6175 3950 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 6000 4400 50  0001 C CNN
+	1    5900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F081CD4
+P 8900 5600
+AR Path="/5F081CD4" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F081CD4" Ref="#PWR056"  Part="1" 
+AR Path="/5CDED0D7/5F081CD4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR056" H 8900 5350 50  0001 C CNN
+F 1 "GND" H 8905 5427 50  0000 C CNN
+F 2 "" H 8900 5600 50  0001 C CNN
+F 3 "" H 8900 5600 50  0001 C CNN
+	1    8900 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F081CDA
+P 9100 5600
+AR Path="/5F081CDA" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F081CDA" Ref="#PWR057"  Part="1" 
+AR Path="/5CDED0D7/5F081CDA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR057" H 9100 5350 50  0001 C CNN
+F 1 "GND" H 9105 5427 50  0000 C CNN
+F 2 "" H 9100 5600 50  0001 C CNN
+F 3 "" H 9100 5600 50  0001 C CNN
+	1    9100 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5600 9100 5500
+Wire Wire Line
+	8900 5600 8900 5500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F081CE2
+P 8900 3900
+AR Path="/5F081CE2" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F081CE2" Ref="#PWR015"  Part="1" 
+AR Path="/5CDED0D7/5F081CE2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR015" H 8900 3750 50  0001 C CNN
+F 1 "+3.3V" H 8915 4073 50  0000 C CNN
+F 2 "" H 8900 3900 50  0001 C CNN
+F 3 "" H 8900 3900 50  0001 C CNN
+	1    8900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4000 8900 3900
+Wire Wire Line
+	9100 3900 9100 4000
+$Comp
+L power:+12V #PWR?
+U 1 1 5F081CEA
+P 9100 3900
+AR Path="/5F081CEA" Ref="#PWR?"  Part="1" 
+AR Path="/5CD7F8DE/5F081CEA" Ref="#PWR016"  Part="1" 
+AR Path="/5CDED0D7/5F081CEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR016" H 9100 3750 50  0001 C CNN
+F 1 "+12V" H 9115 4073 50  0000 C CNN
+F 2 "" H 9100 3900 50  0001 C CNN
+F 3 "" H 9100 3900 50  0001 C CNN
+	1    9100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A5
+U 1 1 5F081CF0
+P 8900 4700
+F 0 "A5" H 9250 5450 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 9600 5350 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 9175 3950 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 9000 4400 50  0001 C CNN
+	1    8900 4700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
