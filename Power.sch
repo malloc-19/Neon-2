@@ -771,7 +771,7 @@ F 3 "" H 9600 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Malloc_Library:TPS5430 U1
+L mallocLibrarySCH:TPS5430 U1
 U 1 1 5D859A5C
 P 5800 2150
 F 0 "U1" H 5800 2565 50  0000 C CNN

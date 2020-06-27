@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name NEON-2-v0.4-rescue)(type Legacy)(uri "${KIPRJMOD}/NEON 2 v0.4-rescue.lib")(options "")(descr ""))
+  (lib (name NEON_v2.11-rescue)(type Legacy)(uri ${KIPRJMOD}/NEON_v2.11-rescue.lib)(options "")(descr ""))
 )
